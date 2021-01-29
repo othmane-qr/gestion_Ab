@@ -56,6 +56,7 @@ namespace WpfApp2
             conn.Open();
             if (combo_class.Text == "All")
             {
+
                 Cmd = new SqlCommand("select a.[Student Id] ,u.[Full Name] , a.[Date] , a.[Description] ,c.[Class Name], a.IsJustified From Users u inner join Attendance a on a.[Student Id] =u.[User Id] inner join Classes c on c.[Id Class]=u.[Class Id]", conn);
                 SqlDataReader dr = Cmd.ExecuteReader();
                 DataTable t = new DataTable();
