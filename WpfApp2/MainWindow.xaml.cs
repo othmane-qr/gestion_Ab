@@ -163,6 +163,12 @@ namespace WpfApp2
             dr.Close();
             conn.Close();
         }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+
+        }
     }
 
 }
