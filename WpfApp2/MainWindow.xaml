@@ -30,7 +30,7 @@
             </Grid.RowDefinitions>
             <Button Content="Log out" HorizontalAlignment="Left" Margin="10,241,0,0" Grid.Row="1" VerticalAlignment="Top" Width="150" Background="#FF010305"/>
             <Button Content="boit reception" HorizontalAlignment="Right" Margin="0,199,10,0" Grid.Row="1" VerticalAlignment="Top" Width="150" Background="#FF010305"/>
-            <Image HorizontalAlignment="Left" Height="78" Margin="48,77,0,0" VerticalAlignment="Top" Width="80" Grid.RowSpan="2" Source="avatar-367-456319.png"/>
+            <Image HorizontalAlignment="Left" Height="78" Margin="48,99,0,0" VerticalAlignment="Top" Width="80" Grid.RowSpan="2" Source="avatar-367-456319.png"/>
         </Grid>
         <Grid Grid.Column="1" Grid.Row="1" Margin="142.4,51,-1.4,12.4" Background="White" Loaded="Grid_Loaded" Grid.ColumnSpan="2">
             <Grid.RowDefinitions>
@@ -52,7 +52,7 @@
                 </Button>
             </StackPanel>
             <Button Content="Affiché les absences" HorizontalAlignment="Left" Margin="81,2,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click" Background="#FF010305" Grid.Column="3"/>
-            <DataGrid CanUserAddRows="False" AutoGenerateColumns="False"  x:Name="dg" HorizontalAlignment="Left" Margin="10,64,0,75.2" Width="673" Loaded="DataGrid_Loaded" Background="#FFE7E7E7" BorderBrush="#FF06070A" Foreground="#FF007BFF" HorizontalGridLinesBrush="#DD161515" OpacityMask="#FF353740" VerticalGridLinesBrush="#DD050505" HeadersVisibility="All" IsTextSearchEnabled="True" Grid.ColumnSpan="6" Grid.RowSpan="2" >
+            <DataGrid CanUserAddRows="False" AutoGenerateColumns="False"  x:Name="dg" HorizontalAlignment="Left" Margin="10,64,0,75.2" Width="673" Loaded="DataGrid_Loaded" Background="White" BorderBrush="#FF06070A" Foreground="#FF007BFF" HorizontalGridLinesBrush="#DD161515" OpacityMask="#FF353740" VerticalGridLinesBrush="#DD050505" HeadersVisibility="All" IsTextSearchEnabled="True" Grid.ColumnSpan="6" Grid.RowSpan="2" >
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID" Binding="{Binding [Student Id]}" Visibility="Hidden"/>
                     <DataGridTextColumn Header="Full Name" Binding="{Binding [Full Name]}" />
